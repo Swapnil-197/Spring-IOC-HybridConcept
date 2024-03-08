@@ -29,6 +29,7 @@ public class AppTest {
 	    Student student = (Student) ctx.getBean("stu");
 	    System.out.println(student.getName());
 	    System.out.println(student.getAge());
+	    System.out.println(student.getAddress().getLandmark());
 	    System.out.println(student.hashCode());
 	    System.out.println();
 	    Student student1 = (Student) ctx.getBean("stu");

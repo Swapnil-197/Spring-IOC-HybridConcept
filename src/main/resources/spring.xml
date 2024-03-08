@@ -34,6 +34,9 @@
 				<value>1234567891</value>
 			</list>
 		</property>
+		<property name="address">
+		      <ref bean="add" />
+		</property>
 		<!-- @autowired will inject reference bean automatically -->
 		<!-- <property name="address"> <ref bean="add"/> </property> -->
 	</bean>
